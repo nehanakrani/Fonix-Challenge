@@ -1,0 +1,3 @@
+weekly_chats:
+  cron: "0 0 * * 0"
+  class: "WeeklyChatJob"

@@ -1,0 +1,6 @@
+<p> Messages have been communicated in the last week is <%= @weekly_chat_details[:last_week_of_messages_count] %></p>
+<% if @weekly_chat_details[:user_last_message_at]%>
+  <p>
+    <%= @weekly_chat_details[:messages_count_since_your_last_message] %> messages since your last message at<%= @weekly_chat_details[:user_last_message_at].to_s(:long) %>
+  </p>
+<% end %>
