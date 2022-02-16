@@ -2,7 +2,7 @@
 ## Challenge requirements:
 
 - The test must be done using Rails.
-- Git must be used as version control (if possible push it to github).
+- Git must be used as version control.
 - Messages should be sent through web sockets (Action Cable).
 
 ## Description:
